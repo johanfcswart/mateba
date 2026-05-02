@@ -1,65 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mateba – Life, in Music</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mateba creates personalised songs from real life stories. A meaningful gift for birthdays, anniversaries, memorials and important life moments.">
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: #0b0b0b;
       color: #ffffff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 40px 22px;
+    }
+
+    .hero {
+      padding: 80px 0 60px;
       text-align: center;
     }
-    .container {
-      max-width: 700px;
-      padding: 20px;
+
+    .logo {
+      font-size: 18px;
+      letter-spacing: 1px;
+      color: #bbb;
+      margin-bottom: 30px;
     }
+
     h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
+      font-size: 48px;
+      line-height: 1.1;
+      margin: 0 0 20px;
     }
+
+    h2 {
+      font-size: 30px;
+      margin-top: 60px;
+      margin-bottom: 18px;
+    }
+
     p {
-      font-size: 1.2em;
-      color: #cccccc;
+      font-size: 18px;
+      color: #d6d6d6;
     }
-    .cta {
-      margin-top: 30px;
+
+    .lead {
+      font-size: 22px;
+      max-width: 760px;
+      margin: 0 auto 35px;
+      color: #e8e8e8;
     }
-    input {
-      padding: 10px;
-      width: 70%;
-      border: none;
-      border-radius: 5px;
-      margin-bottom: 10px;
-    }
-    button {
-      padding: 10px 20px;
-      border: none;
+
+    .button {
+      display: inline-block;
       background: #ffffff;
-      color: #000;
-      cursor: pointer;
-      border-radius: 5px;
+      color: #000000;
+      padding: 14px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 14px;
+    }
+
+    .section {
+      border-top: 1px solid #2a2a2a;
+      padding-top: 38px;
+      margin-top: 38px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 22px;
+      margin-top: 24px;
+    }
+
+    .card {
+      background: #151515;
+      border: 1px solid #2b2b2b;
+      border-radius: 14px;
+      padding: 24px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .small {
+      font-size: 15px;
+      color: #aaa;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 50px 0 25px;
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      .hero {
+        padding-top: 50px;
+      }
+
+      .lead {
+        font-size: 19px;
+      }
     }
   </style>
 </head>
-<body>
-  <div class="container">
-    <h1>Mateba</h1>
-    <p>Life, in Music.</p>
-    <p>We turn real human stories into deeply personal songs.</p>
 
-    <div class="cta">
-      <p><strong>Launching soon.</strong></p>
-      <input type="email" placeholder="Enter your email">
-      <br>
-      <button>Notify Me</button>
-    </div>
-  </div>
+<body>
+  <main class="wrap">
+
+    <section class="hero">
+      <div class="logo">MATEBA — LIFE, IN MUSIC</div>
+
+      <h1>Turn someone’s life story into a song.</h1>
+
+      <p class="lead">
+        Mateba creates personalised songs from real memories, people, places and moments.
+        A meaningful gift for birthdays, anniversaries, memorials and important life events.
+      </p>
+
+      <a class="button" href="https://api.whatsapp.com/send?phone=27637831350&text=Hi%2C%20I%20visited%20the%20Mateba%20website.%20Please%20could%20you%20tell%20me%20more%20about%20creating%20a%20personalised%20song%3F">
+        Start on WhatsApp
+      </a>
+    </section>
+
+    <section class="section">
+      <h2>What is Mateba?</h2>
+      <p>
+        Mateba is a custom music service. You share the story behind a person,
+        relationship or life event. We turn that story into a personalised song
+        designed to feel specific, honest and meaningful.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>When people use it</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Milestone birthdays</h3>
+          <p>A song built from family memories, inside jokes, life lessons and the person’s journey.</p>
+        </div>
+
+        <div class="card">
+          <h3>Anniversaries</h3>
+          <p>A personal way to tell the story of a relationship, from where it started to what it means now.</p>
+        </div>
+
+        <div class="card">
+          <h3>Memorials</h3>
+          <p>A respectful song that honours a life, preserves memories and gives family something lasting.</p>
+        </div>
+
+        <div class="card">
+          <h3>Special gifts</h3>
+          <p>For people who already have things, but would value something personal and impossible to buy off a shelf.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>How it works</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>1. Start a conversation</h3>
+          <p>You contact us on WhatsApp and tell us who the song is for.</p>
+        </div>
+
+        <div class="card">
+          <h3>2. Share the story</h3>
+          <p>We guide you through the details: memories, people, moments, tone and purpose.</p>
+        </div>
+
+        <div class="card">
+          <h3>3. We create the song</h3>
+          <p>The story is shaped into lyrics, structure, style and music.</p>
+        </div>
+
+        <div class="card">
+          <h3>4. You receive it</h3>
+          <p>You receive a finished personalised song that can be shared, gifted or kept.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Example use case</h2>
+      <div class="card">
+        <h3>A 50th birthday song for a father</h3>
+        <p>
+          His children share memories about his work ethic, humour, sacrifices,
+          favourite sayings and the way he shaped their lives. Mateba turns those
+          details into a personalised song that feels like it could only belong to him.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Ready to create one?</h2>
+      <p>
+        Send us a WhatsApp message. We’ll explain the process and what information we need.
+      </p>
+
+      <a class="button" href="https://api.whatsapp.com/send?phone=27637831350&text=Hi%2C%20I%20visited%20the%20Mateba%20website.%20Please%20could%20you%20tell%20me%20more%20about%20creating%20a%20personalised%20song%3F">
+        WhatsApp Mateba
+      </a>
+
+      <p class="small">
+        Mateba Music — South Africa
+      </p>
+    </section>
+
+    <footer class="footer">
+      Mateba — Life, in Music
+    </footer>
+
+  </main>
 </body>
 </html>
