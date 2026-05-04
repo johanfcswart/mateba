@@ -111,6 +111,13 @@
       letter-spacing: -0.06em;
     }
 
+    .hero-logo {
+      display: block;
+      width: min(100%, 420px);
+      height: auto;
+      margin: 0 0 26px;
+    }
+
     .lead {
       max-width: 650px;
       margin-bottom: 34px;
@@ -452,6 +459,9 @@
       .nav { align-items: flex-start; }
       .nav-link { display: none; }
       .hero { gap: 32px; padding: 30px 0 58px; }
+      .hero-logo {
+        margin: 0 auto 24px;
+      }
       .lead, .section-head p, .wide-copy, .cta-panel p { font-size: 16px; }
       .cta-row, .button { width: 100%; }
       .microcopy { max-width: none; }
@@ -477,6 +487,7 @@
     <main>
       <section class="wrap hero">
         <div>
+          <img class="hero-logo" src="public/images/mateba-logo.svg" alt="Mateba – Life, in Music logo" decoding="async" />
           <div class="eyebrow">Personalised songs from real life stories</div>
           <h1>Turn a life story into a song they will keep.</h1>
           <p class="lead">
