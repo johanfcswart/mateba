@@ -3,105 +3,230 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mateba – Personalised Songs from Real Life Stories</title>
+  <title>Mateba | Personalised Songs from Real Life Stories</title>
   <meta name="description" content="Mateba creates deeply personal, AI-assisted songs from real memories, relationships, milestones, and life events." />
   <meta name="keywords" content="personalised song, custom song South Africa, wedding song, memorial song, anniversary song, life story music, AI assisted music, Mateba" />
-  <meta property="og:title" content="Mateba – Personalised Songs from Real Life Stories" />
+  <meta property="og:title" content="Mateba | Personalised Songs from Real Life Stories" />
   <meta property="og:description" content="Mateba creates deeply personal songs from real lives, memories, relationships, and moments that deserve to be heard." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://mateba.co.za" />
-  <meta property="og:image" content="https://mateba.co.za/assets/mateba-logo.svg" />
+  <meta property="og:image" content="https://mateba.co.za/assets/social/og-image.jpg" />
+
   <style>
     :root { --bg:#F8F5EF; --text:#171717; --muted:#55504A; --accent:#B9915A; --deep:#101010; --border:#DED6CA; }
-    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
     body{margin:0;font-family:Inter,system-ui,sans-serif;background:radial-gradient(circle at 12% 2%,#fff5e9,transparent 28rem),var(--bg);color:var(--text);line-height:1.65;padding-bottom:5rem}
-    h1,h2,h3,p{margin:0 0 1rem} h1,h2,h3{font-family:"Playfair Display",Georgia,serif;letter-spacing:-.02em;line-height:1.15}
-    .wrap{width:min(1120px,calc(100% - 2rem));margin:auto} section{padding:5rem 0}
+    h1,h2,h3,p{margin:0 0 1rem}
+    h1,h2,h3{font-family:"Playfair Display",Georgia,serif;letter-spacing:-.02em;line-height:1.15}
+    .wrap{width:min(1120px,calc(100% - 2rem));margin:auto}
+    section{padding:5rem 0}
     .top{position:sticky;top:0;background:rgba(248,245,239,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);z-index:20}
     nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 0;gap:1rem}
-    .logo{height:44px;width:auto} .nav-links{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;justify-content:flex-end}
-    a{text-decoration:none;color:inherit} a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+    .logo{height:56px;max-width:220px;width:auto;object-fit:contain}
+    .nav-links{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+    a{text-decoration:none;color:inherit}
+    a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
     .cta{background:#171717;color:#fff;padding:.8rem 1.2rem;border-radius:999px;font-weight:600;display:inline-block;transition:.2s}
-    .cta:hover{background:#000;transform:translateY(-1px)} .cta-outline{border:1px solid var(--border);padding:.75rem 1.1rem;border-radius:999px}
+    .cta:hover{background:#000;transform:translateY(-1px)}
+    .cta-outline{border:1px solid var(--border);padding:.75rem 1.1rem;border-radius:999px}
     .hero{min-height:88vh;display:grid;gap:2.5rem;align-items:center;grid-template-columns:1.1fr .9fr}
     .eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700;margin-bottom:1rem}
-    .hero h1{font-size:clamp(2.2rem,5.4vw,4.6rem)} .lead{font-size:1.1rem;color:var(--muted);max-width:64ch}
+    .hero h1{font-size:clamp(2.2rem,5.4vw,4.6rem)}
+    .lead{font-size:1.1rem;color:var(--muted);max-width:64ch}
     .wave{border:1px solid var(--border);border-radius:28px;padding:2rem;background:#fff}
-    .bars{display:flex;align-items:flex-end;gap:.4rem;height:160px}.bars i{display:block;flex:1;border-radius:99px;background:linear-gradient(180deg,#d9be95,#b9915a)}
-    .grid{display:grid;gap:1rem}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .bars{display:flex;align-items:flex-end;gap:.4rem;height:160px}
+    .bars i{display:block;flex:1;border-radius:99px;background:linear-gradient(180deg,#d9be95,#b9915a)}
+    .grid{display:grid;gap:1rem}
+    .g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .g2{grid-template-columns:repeat(2,minmax(0,1fr))}
     .card{background:#fff;border:1px solid var(--border);border-radius:20px;padding:1.25rem}
-    .muted{color:var(--muted)} .kicker{color:var(--accent);font-weight:600}
-    .steps .card{position:relative;padding-left:3rem}.steps .n{position:absolute;left:1rem;top:1rem;font-weight:700;color:var(--accent)}
+    .muted{color:var(--muted)}
+    .kicker{color:var(--accent);font-weight:600}
+    .steps .card{position:relative;padding-left:3rem}
+    .steps .n{position:absolute;left:1rem;top:1rem;font-weight:700;color:var(--accent)}
     .founder{display:grid;grid-template-columns:300px 1fr;gap:2rem;align-items:center}
     .founder img{width:100%;border-radius:18px;border:1px solid var(--border);object-fit:cover}
-    .faq details{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1rem 1.1rem}.faq details+details{margin-top:.7rem}
+    .faq details{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1rem 1.1rem}
+    .faq details+details{margin-top:.7rem}
     footer{padding:3rem 0;border-top:1px solid var(--border)}
     .mobile-whatsapp{position:fixed;right:1rem;bottom:1rem;background:#101010;color:#fff;padding:.8rem 1rem;border-radius:999px;z-index:30}
     @media (max-width:920px){.hero,.founder,.g3,.g2{grid-template-columns:1fr} nav{align-items:flex-start;flex-direction:column}.nav-links{justify-content:flex-start}}
     @media (prefers-reduced-motion:no-preference){section{animation:fade .5s ease both} @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}}
   </style>
 </head>
+
 <body>
   <a class="mobile-whatsapp" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Start on WhatsApp</a>
-  <header class="top" id="home"><div class="wrap"><nav>
-    <a href="#home" aria-label="Mateba Home"><img class="logo" src="assets/mateba-logo.svg" alt="Mateba logo" loading="eager" /></a>
-    <div class="nav-links"><a href="#process">The Process</a><a href="#occasions">Occasions</a><a href="#about">About</a><a href="#faq">FAQ</a><a class="cta" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Start on WhatsApp</a></div>
-  </nav></div></header>
+
+  <header class="top" id="home">
+    <div class="wrap">
+      <nav>
+        <a href="#home" aria-label="Mateba Home">
+          <img class="logo" src="assets/logos/mateba-logo-primary.jpg" alt="Mateba logo" loading="eager" />
+        </a>
+        <div class="nav-links">
+          <a href="#process">The Process</a>
+          <a href="#occasions">Occasions</a>
+          <a href="#about">About</a>
+          <a href="#faq">FAQ</a>
+          <a class="cta" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Start on WhatsApp</a>
+        </div>
+      </nav>
+    </div>
+  </header>
 
   <main>
-    <section><div class="wrap hero"><div>
-      <p class="eyebrow">Life, in Music</p>
-      <h1>Your story, carefully turned into music.</h1>
-      <p class="lead">Mateba creates deeply personal songs from real lives, memories, relationships, and moments that deserve to be heard.</p>
-      <p><a class="cta" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Start a private WhatsApp conversation</a> <a class="cta-outline" href="#process">See how it works</a></p>
-    </div><div class="wave" aria-hidden="true"><p class="kicker">Not a song about you. A song from your story.</p><div class="bars"> <i style="height:34%"></i><i style="height:67%"></i><i style="height:43%"></i><i style="height:88%"></i><i style="height:57%"></i><i style="height:75%"></i><i style="height:40%"></i><i style="height:92%"></i></div></div></div></section>
+    <section>
+      <div class="wrap hero">
+        <div>
+          <p class="eyebrow">Life, in Music</p>
+          <h1>Your story, carefully turned into music.</h1>
+          <p class="lead">Mateba creates deeply personal songs from real lives, memories, relationships, and moments that deserve to be heard.</p>
+          <p>
+            <a class="cta" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Start a private WhatsApp conversation</a>
+            <a class="cta-outline" href="#process">See how it works</a>
+          </p>
+        </div>
 
-    <section><div class="wrap"><h2>We do not make generic songs. We listen for the life inside the story.</h2><p class="muted">Every Mateba song begins with a conversation. A memory. A person. A place. A sentence someone once said. From there, we shape the emotional truth into lyrics, melody, style, and sound.</p>
-      <div class="grid g3"><article class="card"><h3>For a person</h3><p class="muted">A song that captures someone’s character, humour, strength, tenderness, and history.</p></article><article class="card"><h3>For a moment</h3><p class="muted">A wedding, anniversary, birthday, farewell, reunion, or turning point expressed in music.</p></article><article class="card"><h3>For a legacy</h3><p class="muted">A way to preserve memories for children, families, and future generations.</p></article></div></div></section>
+        <div class="wave" aria-hidden="true">
+          <p class="kicker">Not a song about you. A song from your story.</p>
+          <div class="bars">
+            <i style="height:34%"></i><i style="height:67%"></i><i style="height:43%"></i><i style="height:88%"></i><i style="height:57%"></i><i style="height:75%"></i><i style="height:40%"></i><i style="height:92%"></i>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <section id="occasions"><div class="wrap"><h2>Moments that deserve more than a message.</h2><div class="grid g2">
-      <div class="card">Weddings</div><div class="card">Anniversaries</div><div class="card">Birthdays</div><div class="card">Memorials and remembrance</div><div class="card">Parent-to-child gifts</div><div class="card">Illness support and encouragement</div><div class="card">Family history</div><div class="card">Retirement</div><div class="card">Reconciliation</div><div class="card">Personal milestones</div>
-    </div></div></section>
+    <section>
+      <div class="wrap">
+        <h2>We do not make generic songs. We listen for the life inside the story.</h2>
+        <p class="muted">Every Mateba song begins with a conversation. A memory. A person. A place. A sentence someone once said. From there, we shape the emotional truth into lyrics, melody, style, and sound.</p>
 
-    <section id="process" class="steps"><div class="wrap"><h2>A private process, guided from beginning to end.</h2><div class="grid g3">
-      <div class="card"><span class="n">1</span><h3>Start with WhatsApp</h3><p class="muted">You message us privately and tell us what kind of song you want to create.</p></div>
-      <div class="card"><span class="n">2</span><h3>Share the story</h3><p class="muted">We ask thoughtful questions about the person, memory, relationship, or moment.</p></div>
-      <div class="card"><span class="n">3</span><h3>Shape the song</h3><p class="muted">We craft the emotional direction, lyrics, genre, vocal feel, and musical atmosphere.</p></div>
-      <div class="card"><span class="n">4</span><h3>Review and refine</h3><p class="muted">You receive the song and have space to request thoughtful refinements.</p></div>
-      <div class="card"><span class="n">5</span><h3>Receive your final piece</h3><p class="muted">Your finished song is delivered digitally, ready to share, keep, or present as a gift.</p></div>
-      <div class="card"><p class="muted">Your story is treated privately. Sensitive personal details are only used to create your song and guide the creative process.</p><p><a class="cta" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Begin the conversation</a></p></div>
-    </div></div></section>
+        <div class="grid g3">
+          <article class="card"><h3>For a person</h3><p class="muted">A song that captures someone’s character, humour, strength, tenderness, and history.</p></article>
+          <article class="card"><h3>For a moment</h3><p class="muted">A wedding, anniversary, birthday, farewell, reunion, or turning point expressed in music.</p></article>
+          <article class="card"><h3>For a legacy</h3><p class="muted">A way to preserve memories for children, families, and future generations.</p></article>
+        </div>
+      </div>
+    </section>
 
-    <section id="about"><div class="wrap founder"><img src="public/images/Johan%20Swart%20Profile%20Pic%20Small.jpeg" alt="Founder and Director of Mateba" loading="lazy" /><div><h2>Created with a human ear.</h2><p class="muted">Mateba is directed by a person, not a machine. The technology helps shape the music, but the care, judgement, emotional listening, and storytelling are human. Every song is treated as personal because every story is personal.</p><p><strong>Founder / Director</strong><br/>Mateba – Life, in Music</p><p><a class="cta" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Speak directly with the founder on WhatsApp</a></p></div></div></section>
+    <section id="occasions">
+      <div class="wrap">
+        <h2>Moments that deserve more than a message.</h2>
+        <div class="grid g2">
+          <div class="card">Weddings</div>
+          <div class="card">Anniversaries</div>
+          <div class="card">Birthdays</div>
+          <div class="card">Memorials and remembrance</div>
+          <div class="card">Parent-to-child gifts</div>
+          <div class="card">Illness support and encouragement</div>
+          <div class="card">Family history</div>
+          <div class="card">Retirement</div>
+          <div class="card">Reconciliation</div>
+          <div class="card">Personal milestones</div>
+        </div>
+      </div>
+    </section>
 
-    <section><div class="wrap"><h2>Made slowly enough to matter.</h2><div class="grid g2"><div class="card">Private intake</div><div class="card">Story-led writing</div><div class="card">Emotional tone matching</div><div class="card">Genre and vocal direction</div><div class="card">Personal revisions</div><div class="card">Digital delivery</div><div class="card">Respectful handling of sensitive stories</div></div><p class="muted">Where stories involve other living people, we may ask for appropriate consent before creating or sharing a song publicly.</p></div></section>
+    <section id="process" class="steps">
+      <div class="wrap">
+        <h2>A private process, guided from beginning to end.</h2>
+        <div class="grid g3">
+          <div class="card"><span class="n">1</span><h3>Start with WhatsApp</h3><p class="muted">You message us privately and tell us what kind of song you want to create.</p></div>
+          <div class="card"><span class="n">2</span><h3>Share the story</h3><p class="muted">We ask thoughtful questions about the person, memory, relationship, or moment.</p></div>
+          <div class="card"><span class="n">3</span><h3>Shape the song</h3><p class="muted">We craft the emotional direction, lyrics, genre, vocal feel, and musical atmosphere.</p></div>
+          <div class="card"><span class="n">4</span><h3>Review and refine</h3><p class="muted">You receive the song and have space to request thoughtful refinements.</p></div>
+          <div class="card"><span class="n">5</span><h3>Receive your final piece</h3><p class="muted">Your finished song is delivered digitally, ready to share, keep, or present as a gift.</p></div>
+          <div class="card"><p class="muted">Your story is treated privately. Sensitive personal details are only used to create your song and guide the creative process.</p><p><a class="cta" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Begin the conversation</a></p></div>
+        </div>
+      </div>
+    </section>
 
-    <section><div class="wrap"><h2>Example song categories</h2><div class="grid g3"><div class="card"><h3>A father’s birthday song</h3><p class="muted">Warm, grateful, and personality-rich with family references.</p></div><div class="card"><h3>A wedding entrance song</h3><p class="muted">Romantic and cinematic, shaped around a couple’s journey.</p></div><div class="card"><h3>A memorial tribute</h3><p class="muted">Respectful remembrance focused on legacy and tenderness.</p></div><div class="card"><h3>A mother-to-child blessing</h3><p class="muted">Protective, hopeful words with gentle melodic pacing.</p></div><div class="card"><h3>A family legacy song</h3><p class="muted">Names, places, and values woven into a generational keepsake.</p></div><div class="card"><h3>A personal comeback anthem</h3><p class="muted">Strong, affirming tone for resilience and renewal.</p></div></div></div></section>
+    <section id="about">
+      <div class="wrap founder">
+        <img src="assets/founder/johan-swart-founder.jpg" alt="Johan Swart, founder and director of Mateba" loading="lazy" />
+        <div>
+          <h2>Created with a human ear.</h2>
+          <p class="muted">Mateba is directed by a person, not a machine. The technology helps shape the music, but the care, judgement, emotional listening, and storytelling are human. Every song is treated as personal because every story is personal.</p>
+          <p><strong>Founder / Director</strong><br/>Mateba | Life, in Music</p>
+          <p><a class="cta" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Speak directly with the founder on WhatsApp</a></p>
+        </div>
+      </div>
+    </section>
 
-    <section><div class="wrap"><h2>Begin with a private quote conversation.</h2><p class="lead">Because every song depends on the depth of the story, the intended use, and the level of refinement required, we begin with a private conversation.</p><p class="muted">Tell us who the song is for, what the occasion is, and when you need it.</p><p><a class="cta" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Request a quote on WhatsApp</a></p></div></section>
+    <section>
+      <div class="wrap">
+        <h2>Made slowly enough to matter.</h2>
+        <div class="grid g2">
+          <div class="card">Private intake</div>
+          <div class="card">Story-led writing</div>
+          <div class="card">Emotional tone matching</div>
+          <div class="card">Genre and vocal direction</div>
+          <div class="card">Personal revisions</div>
+          <div class="card">Digital delivery</div>
+          <div class="card">Respectful handling of sensitive stories</div>
+        </div>
+        <p class="muted">Where stories involve other living people, we may ask for appropriate consent before creating or sharing a song publicly.</p>
+      </div>
+    </section>
 
-    <section id="faq" class="faq"><div class="wrap"><h2>Frequently asked questions</h2>
-      <details><summary>What is Mateba?</summary><p>Mateba creates personalised songs from real stories, memories, relationships, and life events.</p></details>
-      <details><summary>Is this AI-generated music?</summary><p>Mateba uses AI-assisted music tools as part of the production process, but the emotional direction, story interpretation, lyric shaping, and final guidance are handled personally.</p></details>
-      <details><summary>How personal can the song be?</summary><p>The song can include names, places, memories, phrases, family details, and emotional references that matter to the people involved.</p></details>
-      <details><summary>How do I start?</summary><p>The simplest way is to send a WhatsApp message. We will guide you through the first questions.</p></details>
-      <details><summary>Can I choose the genre?</summary><p>Yes. You can suggest a genre, mood, tempo, vocal feel, or reference direction. Mateba will help shape it into something that fits the story.</p></details>
-      <details><summary>Can I request changes?</summary><p>Yes. The process includes space for thoughtful refinements.</p></details>
-      <details><summary>How long does it take?</summary><p>Timing depends on the story, the occasion, and the level of refinement required. If there is a deadline, share it in the first WhatsApp message.</p></details>
-      <details><summary>Can this be used for weddings or memorials?</summary><p>Yes. Mateba songs can be created for weddings, anniversaries, birthdays, memorials, family tributes, and other meaningful moments.</p></details>
-      <details><summary>What if the story is sensitive?</summary><p>Sensitive stories are handled privately and respectfully. Only share what you are comfortable sharing.</p></details>
-      <details><summary>Who owns the final song?</summary><p>Usage terms should be confirmed during the order process. Mateba will explain what you may do with the final song before production begins.</p></details>
-    </div></section>
+    <section>
+      <div class="wrap">
+        <h2>Example song categories</h2>
+        <div class="grid g3">
+          <div class="card"><h3>A father’s birthday song</h3><p class="muted">Warm, grateful, and personality-rich with family references.</p></div>
+          <div class="card"><h3>A wedding entrance song</h3><p class="muted">Romantic and cinematic, shaped around a couple’s journey.</p></div>
+          <div class="card"><h3>A memorial tribute</h3><p class="muted">Respectful remembrance focused on legacy and tenderness.</p></div>
+          <div class="card"><h3>A mother-to-child blessing</h3><p class="muted">Protective, hopeful words with gentle melodic pacing.</p></div>
+          <div class="card"><h3>A family legacy song</h3><p class="muted">Names, places, and values woven into a generational keepsake.</p></div>
+          <div class="card"><h3>A personal comeback anthem</h3><p class="muted">Strong, affirming tone for resilience and renewal.</p></div>
+        </div>
+      </div>
+    </section>
 
-    <section><div class="wrap"><h2>Some stories should not disappear.</h2><p class="lead">Turn a life, a memory, or a relationship into a song that can be kept, shared, and returned to.</p><p><a class="cta" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Start on WhatsApp</a></p></div></section>
+    <section>
+      <div class="wrap">
+        <h2>Begin with a private quote conversation.</h2>
+        <p class="lead">Because every song depends on the depth of the story, the intended use, and the level of refinement required, we begin with a private conversation.</p>
+        <p class="muted">Tell us who the song is for, what the occasion is, and when you need it.</p>
+        <p><a class="cta" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Request a quote on WhatsApp</a></p>
+      </div>
+    </section>
+
+    <section id="faq" class="faq">
+      <div class="wrap">
+        <h2>Frequently asked questions</h2>
+        <details><summary>What is Mateba?</summary><p>Mateba creates personalised songs from real stories, memories, relationships, and life events.</p></details>
+        <details><summary>Is this AI-generated music?</summary><p>Mateba uses AI-assisted music tools as part of the production process, but the emotional direction, story interpretation, lyric shaping, and final guidance are handled personally.</p></details>
+        <details><summary>How personal can the song be?</summary><p>The song can include names, places, memories, phrases, family details, and emotional references that matter to the people involved.</p></details>
+        <details><summary>How do I start?</summary><p>The simplest way is to send a WhatsApp message. We will guide you through the first questions.</p></details>
+        <details><summary>Can I choose the genre?</summary><p>Yes. You can suggest a genre, mood, tempo, vocal feel, or reference direction. Mateba will help shape it into something that fits the story.</p></details>
+        <details><summary>Can I request changes?</summary><p>Yes. The process includes space for thoughtful refinements.</p></details>
+        <details><summary>How long does it take?</summary><p>Timing depends on the story, the occasion, and the level of refinement required. If there is a deadline, share it in the first WhatsApp message.</p></details>
+        <details><summary>Can this be used for weddings or memorials?</summary><p>Yes. Mateba songs can be created for weddings, anniversaries, birthdays, memorials, family tributes, and other meaningful moments.</p></details>
+        <details><summary>What if the story is sensitive?</summary><p>Sensitive stories are handled privately and respectfully. Only share what you are comfortable sharing.</p></details>
+        <details><summary>Who owns the final song?</summary><p>Usage terms should be confirmed during the order process. Mateba will explain what you may do with the final song before production begins.</p></details>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Some stories should not disappear.</h2>
+        <p class="lead">Turn a life, a memory, or a relationship into a song that can be kept, shared, and returned to.</p>
+        <p><a class="cta" href="https://wa.me/27637831350?text=Hello%20Mateba%2C%20I%20would%20like%20to%20create%20a%20personal%20song.%20Please%20guide%20me%20through%20the%20process.">Start on WhatsApp</a></p>
+      </div>
+    </section>
   </main>
 
-  <footer><div class="wrap">
-    <img class="logo" src="assets/mateba-logo.svg" alt="Mateba logo" loading="eager" />
-    <p>Life, in Music</p>
-    <p><strong>WhatsApp:</strong> 063 783 1350<br/><strong>Tel:</strong> 063 783 1350<br/><a href="https://www.facebook.com/profile.php?id=61576395316589">Facebook</a></p>
-    <p><a href="#">Privacy</a> · <a href="#">Terms</a></p>
-    <p>© 2026 Mateba. All rights reserved. mateba.co.za</p>
-  </div></footer>
+  <footer>
+    <div class="wrap">
+      <img class="logo" src="assets/logos/mateba-logo-primary.jpg" alt="Mateba logo" loading="eager" />
+      <p>Life, in Music</p>
+      <p><strong>WhatsApp:</strong> 063 783 1350<br/><strong>Tel:</strong> 063 783 1350<br/><a href="https://www.facebook.com/profile.php?id=61576395316589">Facebook</a></p>
+      <p><a href="docs/legal/terms-of-use.md">Terms of Use</a></p>
+      <p>© 2026 Mateba. All rights reserved. mateba.co.za</p>
+    </div>
+  </footer>
 </body>
 </html>
