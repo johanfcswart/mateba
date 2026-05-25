@@ -20,7 +20,8 @@
     h1,h2,h3,p{margin:0 0 1rem}
     h1,h2,h3{font-family:"Playfair Display",Georgia,serif;letter-spacing:-.02em;line-height:1.15}
     .wrap{width:min(1120px,calc(100% - 2rem));margin:auto}
-    section{padding:5rem 0}
+    section{padding:4rem 0}
+    main > section:first-child{padding:clamp(2.25rem,6vh,4rem) 0 clamp(1.75rem,4vh,3rem)}
     .top{position:sticky;top:0;background:rgba(248,245,239,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);z-index:20}
     nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 0;gap:1rem}
     .logo{height:56px;max-width:220px;width:auto;object-fit:contain}
@@ -30,7 +31,7 @@
     .cta{background:#171717;color:#fff;padding:.8rem 1.2rem;border-radius:999px;font-weight:600;display:inline-block;transition:.2s}
     .cta:hover{background:#000;transform:translateY(-1px)}
     .cta-outline{border:1px solid var(--border);padding:.75rem 1.1rem;border-radius:999px}
-    .hero{min-height:88vh;display:grid;gap:2.5rem;align-items:center;grid-template-columns:1.1fr .9fr}
+    .hero{display:grid;gap:2.5rem;align-items:center;grid-template-columns:1.1fr .9fr}
     .eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700;margin-bottom:1rem}
     .hero h1{font-size:clamp(2.2rem,5.4vw,4.6rem)}
     .lead{font-size:1.1rem;color:var(--muted);max-width:64ch}
@@ -51,7 +52,7 @@
     .faq details+details{margin-top:.7rem}
     footer{padding:3rem 0;border-top:1px solid var(--border)}
     .mobile-whatsapp{position:fixed;right:1rem;bottom:1rem;background:#101010;color:#fff;padding:.8rem 1rem;border-radius:999px;z-index:30}
-    @media (max-width:920px){.hero,.founder,.g3,.g2{grid-template-columns:1fr} nav{align-items:flex-start;flex-direction:column}.nav-links{justify-content:flex-start}}
+    @media (max-width:920px){section{padding:3rem 0}main > section:first-child{padding:2rem 0 2.5rem}.hero,.founder,.g3,.g2{grid-template-columns:1fr} nav{align-items:flex-start;flex-direction:column}.nav-links{justify-content:flex-start}}
     @media (prefers-reduced-motion:no-preference){section{animation:fade .5s ease both} @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}}
   </style>
 </head>
