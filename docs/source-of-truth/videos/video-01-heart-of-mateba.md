@@ -4,9 +4,21 @@
 
 mateba-video-01-heart-of-mateba.mov
 
-## Asset Storage Location
+## Master Asset Storage Location
 
 Google Drive / My Drive / mateba_website / source-of-truth /
+
+## Web Asset File Name
+
+mateba-video-01-heart-of-mateba-web.mp4
+
+## Web Asset Storage Location
+
+Google Drive / My Drive / mateba_website / source-of-truth / web_video /
+
+## Website Embed URL
+
+https://drive.google.com/file/d/1lRkG-Rhuq1N1Txm4QmZIoaM5Nl-mw31O/preview
 
 ## Status
 
