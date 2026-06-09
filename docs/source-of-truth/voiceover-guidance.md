@@ -1,6 +1,6 @@
 # Mateba Voiceover Guidance
 
-Source-of-truth guidance for using the three approved Mateba introductory videos in website, sales, content, and conversion assets.
+Source-of-truth guidance for using the three approved Mateba introductory videos in the website, sales content, and conversion assets.
 
 ## Core positioning
 
@@ -16,7 +16,7 @@ Locked concept:
 
 > A photograph captures how someone looked. An Audiograph captures who they are.
 
-The videos should guide the website’s emotional structure, not simply be embedded as media. They define the order in which a visitor should understand Mateba:
+The videos should guide the website's emotional structure, not simply be embedded as media. They define the order in which a visitor should understand Mateba:
 
 1. Emotional legitimacy
 2. Product understanding
@@ -24,286 +24,325 @@ The videos should guide the website’s emotional structure, not simply be embed
 
 The website should use the language of the videos sparingly as section anchors, pull-quotes, CTAs, and copy-control rules. It should not duplicate the full voiceovers as ordinary homepage copy.
 
+## Core Voiceover Lines for Website Use
+
+### Video 1: The Heart of Mateba
+
+**Core line**
+
+Music can do something few things can: move past the mind and speak directly to the heart.
+
+**Website role**
+
+Explains why music is Mateba's medium. Use near the homepage hero or above Video 1.
+
 ---
 
-# Video 1: The Heart of Mateba
+### Video 2: What is an Audiograph?
 
-## Voiceover
+**Core definition**
 
-Music can do something few things can.  
-It can move past the mind  
+An Audiograph is a deeply personal musical work: a musical portrait shaped around real moments and real people.
+
+**Locked concept**
+
+A photograph captures how someone looked. An Audiograph captures who they are.
+
+**Illustrative example**
+
+A photograph may capture the beauty of the bride. An Audiograph can preserve what the groom felt when he saw her.
+
+**Website role**
+
+Defines the product and makes the Audiograph understandable through contrast with photography.
+
+---
+
+### Video 3: For Those Who Love Deeply
+
+**Core line**
+
+People who feel deeply build legacies that endure.
+
+**Voiceover source line**
+
+It is people who feel deeply who build legacies that endure.
+
+**Website role**
+
+Pre-selects the right client. Use in the "Who Mateba is for" section and near the final CTA.
+
+## Video 1: The Heart of Mateba
+
+### Voiceover
+
+Music can do something few things can.
+It can move past the mind
 and speak directly to the heart.
 
-Some stories are meant to be felt, not told.  
+Some stories are meant to be felt, not told.
 Music is intimate.
 
-It can hold a memory.  
-Carry a feeling.  
+It can hold a memory.
+Carry a feeling.
 Give shape to what ordinary words cannot always say.
 
 Connection is the heart of Mateba.
 
-Music shaped around a life,  
-a moment,  
-a relationship,  
+Music shaped around a life,
+a moment,
+a relationship,
 and the emotion behind it.
 
-Through Mateba, music becomes personal.  
-Honest.  
+Through Mateba, music becomes personal.
+Honest.
 Alive.
 
-Sometimes it begins with one moment.  
-Sometimes,  
+Sometimes it begins with one moment.
+Sometimes,
 it becomes the sound of a life.
 
-Mateba.  
+Mateba.
 Life, in Music.
 
-## Strategic role
+### Strategic role
 
 Video 1 establishes emotional legitimacy.
 
-It explains why music is the correct medium for Mateba. The visitor should understand that Mateba exists because music can hold memory, feeling, connection, and emotional truth in a way ordinary language often cannot.
+It explains why music is the correct medium for Mateba: music can carry feeling, memory, relationship, and emotional truth in a way ordinary explanation cannot always do.
 
-## Desired viewer response
+### Desired viewer response
 
-“This is meaningful, credible, and emotionally serious.”
+"This is meaningful, credible, and emotionally serious."
 
-## Website use
+### Website use
 
-Use Video 1 to guide:
+Use Video 1 language to guide:
 
-- homepage hero tone
-- opening emotional premise
-- founder-led trust section
-- first CTA environment
-- final emotional CTA
-- general brand tone
+* homepage hero
+* introductory emotional framing
+* founder trust section
+* first video section
+* final emotional CTA
 
-## Key phrases suitable for homepage use
+### Strong reusable lines
 
-- Music can hold what ordinary words cannot always say.
-- Some stories are meant to be felt, not told.
-- Connection is the heart of Mateba.
-- Music shaped around a life, a moment, a relationship, and the emotion behind it.
-- Sometimes it begins with one moment. Sometimes, it becomes the sound of a life.
+* Music can do something few things can.
+* Music can move past the mind and speak directly to the heart.
+* Some stories are meant to be felt, not told.
+* Music can hold a memory.
+* Music can give shape to what ordinary words cannot always say.
+* Connection is the heart of Mateba.
+* Sometimes it begins with one moment.
+* Sometimes it becomes the sound of a life.
 
-## Copy-control rule
+### Website-safe adaptations
 
-Video 1 should make Mateba feel emotionally serious, not decorative, sentimental, or generic.
+Use:
 
-Avoid copy that sounds like:
+> Music can hold what ordinary words cannot always say.
 
-- “make a song for someone”
-- “turn your idea into music”
-- “the perfect gift”
-- “custom song in minutes”
-- novelty, gimmick, or cheap personalisation language
+Use:
 
----
+> Some stories are meant to be felt, not only told.
 
-# Video 2: What Is an Audiograph?
+Use:
 
-## Voiceover
+> Connection is the heart of Mateba.
+
+Avoid overusing all three together in one section. The video should carry the emotional load.
+
+## Video 2: What is an Audiograph?
+
+### Voiceover
 
 What is an audiograph?
 
-Music can bridge the gap  
+Music can bridge the gap
 where words and pictures fall short.
 
-A photograph captures the beauty of the bride.  
+A photograph captures the beauty of the bride.
 An audiograph captures what the groom felt when he saw her.
 
-An audiograph is a deeply personal song,  
+An audiograph is a deeply personal song,
 a musical portrait shaped around real moments and real people.
 
 Certain moments reverberate through generations.
 
-A proposal.  
-An anniversary.  
-Expectation.  
-A new life.  
-Coming of age.  
-A tribute.  
+A proposal.
+An anniversary.
+Expectation.
+A new life.
+Coming of age.
+A tribute.
 The celebration to a life.
 
 An audiograph allows a moment to be relived each time it is heard.
 
-It becomes a bridge between people.  
-Their story.  
-How they loved.  
+It becomes a bridge between people.
+Their story.
+How they loved.
 Life reflected in music.
 
-Mateba.  
+Mateba.
 Life, in Music.
 
-## Strategic role
+### Strategic role
 
 Video 2 creates product understanding.
 
-It answers the question: “What does Mateba actually sell?”
+It explains what an Audiograph is, why it exists, and how it differs from a photograph, a message, or ordinary memory.
 
-It should help the visitor understand that an Audiograph is not merely a song, but a musical portrait of a real person, relationship, memory, life event, or story.
+### Desired viewer response
 
-## Desired viewer response
+"I understand what Mateba sells."
 
-“I understand what Mateba sells.”
+### Website use
 
-## Website use
+Use Video 2 language to guide:
 
-Use Video 2 to guide:
+* Audiograph definition
+* homepage product explanation
+* wedding and milestone examples
+* FAQ explanation
+* use-case copy
 
-- Audiograph definition
-- product explanation
-- use-case section
-- FAQ answer to “Is this just a custom song?”
-- website meta description
-- sales conversation language
+### Important wording correction for website use
 
-## Key phrases suitable for homepage use
+The voiceover says:
 
-- Music can bridge the gap where words and pictures fall short.
-- A photograph captures how someone looked. An Audiograph captures who they are.
-- A musical portrait shaped around real moments and real people.
-- Certain moments reverberate through generations.
-- An Audiograph allows a moment to be relived each time it is heard.
-- It becomes a bridge between people.
-- Their story. How they loved. Life reflected in music.
+> An audiograph is a deeply personal song.
 
-## Important wording note
+For the website, prefer:
 
-The voiceover uses the phrase “a deeply personal song” as an explanatory phrase. On the website, “song” may be used only as a clarification term, not as the primary category.
+> An Audiograph is a deeply personal musical work.
 
-Preferred website wording:
+Reason: "song" is understandable, but using it as the primary category risks pulling Mateba back into generic custom-song positioning.
 
-> An Audiograph is a deeply personal musical work shaped around real moments and real people.
+Acceptable website formulation:
 
-Avoid making “custom song” the dominant product category.
+> An Audiograph is a deeply personal musical work: a musical portrait shaped around real moments and real people.
 
-## Use-case guidance
+### Strong reusable lines
 
-The use cases named or implied by Video 2 include:
+* Music can bridge the gap where words and pictures fall short.
+* A photograph captures the beauty of the bride. An Audiograph captures what the groom felt when he saw her.
+* A musical portrait shaped around real moments and real people.
+* Certain moments reverberate through generations.
+* An Audiograph allows a moment to be relived each time it is heard.
+* It becomes a bridge between people.
+* Their story. How they loved. Life reflected in music.
 
-- proposals
-- anniversaries
-- expectation
-- new life
-- coming of age
-- tributes
-- celebrations of life
-- weddings
-- family legacy
-- moments that should be relived
+### Website-safe adaptations
 
-These should be presented as examples, not as the entire limit of what Mateba can create.
+Use:
 
-## Copy-control rule
+> A photograph captures how someone looked. An Audiograph captures who they are.
 
-Video 2 should make the Audiograph clear and desirable without reducing it to a generic music product.
+Use:
 
----
+> A photograph may capture the beauty of the bride. An Audiograph can preserve what the groom felt when he saw her.
 
-# Video 3: Here’s to Those Who Love Deeply
+Use:
 
-## Voiceover
+> An Audiograph is a deeply personal musical work: a musical portrait shaped around real moments and real people.
 
-Here’s to those who love deeply.
+Use:
 
-The empaths.  
-The mentors.  
-The protectors.  
-The hearts that hold families together.  
+> An Audiograph allows a moment to be relived each time it is heard.
+
+Avoid making wedding language the universal product definition. The bride and groom line is a strong example, not the whole category.
+
+## Video 3: For Those Who Love Deeply
+
+### Voiceover
+
+Here's to those who love deeply.
+
+The empaths.
+The mentors.
+The protectors.
+The hearts that hold families together.
 The ones who are moved by beauty.
 
-They see beneath the surface.  
+They see beneath the surface.
 Yet often go unnoticed.
 
-While some may not understand them,  
+While some may not understand them,
 we recognise their gift.
 
-Because they are the Keepers.
+Because they are the Keepers...
 
 They tell the human story.
 
-It is people who feel deeply  
+It is people who feel deeply
 who build legacies that endure.
 
-Mateba.  
+Mateba.
 Life, in Music.
 
-## Strategic role
+### Strategic role
 
 Video 3 creates human significance and client fit.
 
-It should make the right viewer feel recognised. It is not only about selling an Audiograph. It identifies the type of person who values Mateba: someone who loves deeply, notices emotional meaning, values family, memory, story, and legacy, and wants important things preserved with care.
+It identifies the kind of person Mateba is for: not everyone with a meaningful moment, but people who value emotional meaning deeply enough to preserve it with care.
 
-## Desired viewer response
+### Desired viewer response
 
-“I want this in my life.”
+"I want this in my life."
 
-Secondary poor-fit response:
+### Poor-fit viewer response
 
-“This is probably not for me.”
+"This is probably not for me."
 
-## Website use
+### Website use
 
-Use Video 3 to guide:
+Use Video 3 language to guide:
 
-- “Who Mateba is for”
-- final CTA
-- audience pre-selection
-- WhatsApp intro language
-- social media posts
-- future landing pages for family, legacy, tributes, and milestones
+* "Who Mateba is for"
+* final CTA
+* audience selection
+* values-led copy
+* client pre-qualification
 
-## Key phrases suitable for homepage use
+### Strong reusable lines
 
-- Here’s to those who love deeply.
-- The hearts that hold families together.
-- The ones who are moved by beauty.
-- They see beneath the surface.
-- We recognise their gift.
-- They are the Keepers.
-- They tell the human story.
-- People who feel deeply build legacies that endure.
+* Here's to those who love deeply.
+* The hearts that hold families together.
+* They see beneath the surface.
+* We recognise their gift.
+* They tell the human story.
+* It is people who feel deeply who build legacies that endure.
 
-## Client-fit guidance
+### Website-safe adaptations
 
-Mateba is for people who:
+Use:
 
-- love deeply
-- value emotional meaning
-- notice beauty and memory
-- care about family, relationship, story, and legacy
-- are willing to engage honestly with the story-capture process
-- want something personal rather than generic
+> People who feel deeply build legacies that endure.
 
-Mateba is not primarily for people who:
+Use:
 
-- want a novelty song
-- want a cheap or instant gift
-- want to avoid meaningful story input
-- want unauthorised imitation of a real artist or person
-- want to use private or sensitive material without consent
-- are seeking to weaponise family or relationship stories in a dispute
+> Mateba is for people who feel deeply, recognise meaning, and want what matters to endure.
 
-## Copy-control rule
+Use:
 
-Video 3 should help the right client self-identify without implying that only some lives or moments are worthy. Everyone has meaningful moments. The filter is whether the person values emotional preservation deeply enough to want Mateba.
+> For people who love deeply, value memory, and notice the meaning beneath the surface.
 
----
+Avoid implying that only some lives are meaningful. The filter is not whether someone's life or moment matters. The filter is whether the person values emotional preservation enough to engage seriously with Mateba.
 
-# Homepage application
+## Homepage guidance
 
-## Recommended homepage message sequence
+The homepage should be founder-led and video-led.
 
-1. Founder-led hero
-2. Mateba definition
+Recommended order:
+
+1. Header
+2. Hero with founder presence
 3. Audiograph definition
 4. Video 1: The Heart of Mateba
 5. Founder trust section
-6. Video 2: What Is an Audiograph?
-7. Video 3: Here’s to Those Who Love Deeply
+6. Video 2: What is an Audiograph?
+7. Video 3: For Those Who Love Deeply
 8. Who Mateba is for
 9. How it works
 10. Sensitivity and legal note
@@ -311,49 +350,77 @@ Video 3 should help the right client self-identify without implying that only so
 12. Final Contact Mateba CTA
 13. Footer
 
-## Recommended homepage pull-quotes
-
-Use sparingly.
+## Recommended homepage section anchors
 
 ### Hero
 
-> Music for the people, stories, and moments that matter most.
+Use the current core product framing:
 
-Supporting line:
+> Mateba creates Audiographs: deeply personal musical works shaped around real people, relationships, memories, and life events.
+
+Optional supporting line:
 
 > Music can hold what ordinary words cannot always say.
 
 ### Audiograph section
 
+Use:
+
 > A photograph captures how someone looked. An Audiograph captures who they are.
 
-Supporting line:
+Then:
 
-> A musical portrait shaped around real moments and real people.
+> An Audiograph is a deeply personal musical work: a musical portrait shaped around real moments and real people.
 
 ### Video 1 section
 
-> Some stories are meant to be felt, not told.
+Use:
+
+> Music can do something few things can: move past the mind and speak directly to the heart.
+
+or:
+
+> Some stories are meant to be felt, not only told.
 
 ### Video 2 section
 
+Use:
+
 > Music can bridge the gap where words and pictures fall short.
+
+or:
+
+> A photograph may capture the beauty of the bride. An Audiograph can preserve what the groom felt when he saw her.
 
 ### Video 3 section
 
-> Here’s to those who love deeply.
-
-Supporting line:
+Use:
 
 > People who feel deeply build legacies that endure.
 
 ### Final CTA
 
+Use:
+
 > Sometimes it begins with one moment. Sometimes, it becomes the sound of a life.
 
----
+Then:
 
-# CTA guidance
+> Contact Mateba.
+
+## Founder positioning guidance
+
+The founder should be prominent.
+
+Mateba should not feel like an anonymous music-generation service. The founder creates trust, accountability, and human presence.
+
+Use:
+
+> Mateba is founder-led by Johan FC Swart. Every Audiograph begins with listening: to the person, the memory, the relationship, and the meaning behind the request.
+
+The founder photo should be visible on the homepage, ideally in or near the hero section.
+
+## CTA guidance
 
 Primary CTA:
 
@@ -361,124 +428,75 @@ Primary CTA:
 
 Avoid:
 
-- Order now
-- Buy now
-- Create my song
-- Generate my song
-- Start my custom song
+* Order now
+* Buy a song
+* Create my custom song
+* Generate my song
+* Start my AI song
 
-Preferred WhatsApp pre-filled message:
+Reason: Mateba is a sensitive, founder-led emotional preservation process. The CTA should invite a private conversation, not imply instant commodity purchase.
 
-> Hello Mateba, I would like to discuss creating an Audiograph. Please guide me through the process.
+## FAQ guidance
 
----
+The FAQ should protect both conversion and risk management.
 
-# FAQ guidance from voiceovers
+It should answer:
 
-The FAQ should answer practical questions while preserving the tone of the videos.
+* What is an Audiograph?
+* Is Mateba just a custom song service?
+* What can an Audiograph be for?
+* How do I start?
+* What do I need to provide?
+* Can Mateba work with sensitive stories?
+* Can I create an Audiograph about someone else?
+* Can I create one involving a child?
+* Can I create a tribute for someone who has passed away?
+* Can Mateba imitate someone's voice?
+* Can I share the final Audiograph online?
+* What does it cost?
+* How long does it take?
 
-Recommended FAQ questions:
+## Legal and sensitivity guidance
 
-1. What is an Audiograph?
-2. Is Mateba just a custom song service?
-3. What can an Audiograph be for?
-4. Do I need to know exactly what I want?
-5. Can Mateba work with sensitive stories?
-6. Can I create an Audiograph for someone else?
-7. Can Mateba create memorial or tribute Audiographs?
-8. Can Mateba imitate someone’s voice?
-9. Can I share the final Audiograph online?
-10. How do I start?
+Because Audiographs may involve real people, children, family history, bereavement, disputes, private memories, trauma, or sensitive information, the website should include clear cautionary language.
 
-Core answer to “Is Mateba just a custom song service?”:
-
-> No. Mateba creates Audiographs. Music is the medium. Emotional preservation is the value.
-
----
-
-# Legal and ethical guidance
-
-The emotional seriousness of the videos must be matched by legal and ethical care.
-
-The website should clearly state that Mateba may decline, limit, or request changes to projects involving:
-
-- legal disputes
-- confidential information
-- third-party privacy
-- children
-- deceased persons
-- medical trauma
-- bereavement
-- family conflict
-- unauthorised voice or likeness imitation
-- copyrighted material
-- sensitive personal information
-
-The website should not promise guaranteed emotional outcomes, unrestricted use, or legal permission for third-party material.
-
-Suggested legal note:
+Use:
 
 > Mateba may decline or request changes to projects involving legal disputes, confidential information, third-party privacy, minors, medical trauma, bereavement, family conflict, or other sensitive matters. Clients are responsible for ensuring they may share the names, stories, recordings, images, and personal information provided.
 
----
+Use:
 
-# Brand language rules
+> Mateba creates expressive musical works. Mateba does not provide legal, medical, psychological, or counselling services.
 
-## Use
+The website must not promise therapeutic outcomes, legal certainty, emotional healing, or guaranteed family acceptance.
 
-- Audiograph
-- Life, in Music
-- emotional preservation
-- musical portrait
-- real moments
-- real people
-- connection
-- memory
-- feeling
-- life reflected in music
-- story
-- relationship
-- legacy
-- founder-led
-- care
-- discretion
-- clear boundaries
+## Copy-control rules
 
-## Use sparingly
+All Mateba website copy should pass these tests:
 
-- song
-- custom song
-- personalised song
+1. Does this make the Audiograph clearer?
+2. Does this reinforce Mateba as emotional preservation through music?
+3. Does this avoid generic custom-song positioning?
+4. Does this make the product emotionally desirable without exaggeration?
+5. Does this pre-select the right client?
+6. Does this avoid legal, consent, privacy, and family-dispute risk?
+7. Does this sound founder-led, human, and serious?
+8. Does this help the visitor contact Mateba?
 
-These may be used only to clarify what an Audiograph is not or to help users understand the category.
+If a line is beautiful but does not improve clarity, trust, conversion, or risk control, remove it.
 
-## Avoid
+## Terms of use for the voiceover text
 
-- custom song business
-- AI-generated song service
-- personalised song generator
-- novelty song
-- cheap gift
-- instant song
-- song in minutes
-- sound like your favourite artist
-- imitate someone’s voice
-- perfect gift for everyone
-- guaranteed emotional reaction
+Do not use the full voiceovers as ordinary homepage copy.
 
----
+Use them as:
 
-# Implementation rule
+* section anchors
+* pull-quotes
+* strategic references
+* CTA inspiration
+* copy-control rules
+* video introductions
+* source-of-truth guidance
 
-The videos are primary conversion assets.
-
-The website copy should:
-
-1. introduce the idea clearly,
-2. frame the emotional meaning,
-3. let the videos do the deeper persuasion,
-4. confirm the founder-led human process,
-5. answer practical and legal questions,
-6. move the right client to “Contact Mateba.”
-
-Do not over-explain what the videos already communicate better.
+The videos themselves remain the primary emotional conversion assets.
