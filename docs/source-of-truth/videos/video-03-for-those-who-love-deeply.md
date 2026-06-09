@@ -4,9 +4,21 @@
 
 mateba-video-03-for-those-who-love-deeply.mov
 
-## Asset Storage Location
+## Master Asset Storage Location
 
 Google Drive / My Drive / mateba_website / source-of-truth /
+
+## Web Asset File Name
+
+mateba-video-03-for-those-who-love-deeply-web.mp4
+
+## Web Asset Storage Location
+
+Google Drive / My Drive / mateba_website / source-of-truth / web_video /
+
+## Website Embed URL
+
+https://drive.google.com/file/d/1IFZv3Rf7JDp_iQ8ZajjlylMHHehjQJbI/preview
 
 ## Status
 
