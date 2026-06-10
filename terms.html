@@ -5,17 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Mateba Terms of Use</title>
-  <meta name="description" content="Mateba Terms of Use for personalised song orders, client material, privacy, AI-assisted production, payment, revisions, delivery, and acceptance." />
+  <meta
+    name="description"
+    content="Mateba Terms of Use for Audiograph orders, client material, privacy, AI-assisted production, payment, revisions, delivery, licence, and acceptance."
+  />
 
   <style>
     :root {
-      --bg: #F8F5EF;
-      --card: #FFFFFF;
+      --bg: #f8f5ef;
+      --card: #ffffff;
       --text: #171717;
-      --muted: #55504A;
-      --accent: #B9915A;
-      --deep: #101010;
-      --border: #DED6CA;
+      --muted: #555a64;
+      --accent: #b89559;
+      --deep: #181018;
+      --border: #ded6ca;
     }
 
     * {
@@ -24,131 +27,157 @@
 
     body {
       margin: 0;
-      font-family: Inter, system-ui, sans-serif;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: var(--bg);
       color: var(--text);
       line-height: 1.65;
     }
 
-    .wrap {
-      width: min(900px, calc(100% - 2rem));
-      margin: auto;
-    }
-
     header {
-      border-bottom: 1px solid var(--border);
-      background: rgba(248, 245, 239, 0.95);
-      padding: 1rem 0;
+      background: var(--deep);
+      color: #fff;
+      padding: 18px 24px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
     }
 
-    nav {
+    .nav {
+      max-width: 980px;
+      margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 1rem;
+      gap: 18px;
       flex-wrap: wrap;
     }
 
-    .logo {
-      height: 56px;
-      max-width: 220px;
-      width: auto;
-      object-fit: contain;
+    .brand {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      color: #fff;
     }
 
-    a {
-      color: inherit;
+    nav a {
+      color: #fff;
       text-decoration: none;
+      margin-left: 18px;
+      font-size: 0.95rem;
+      opacity: 0.88;
+    }
+
+    nav a:hover {
+      opacity: 1;
+      color: var(--accent);
     }
 
     main {
-      padding: 4rem 0;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
     }
 
-    h1, h2, h3 {
-      font-family: "Playfair Display", Georgia, serif;
-      line-height: 1.15;
-      letter-spacing: -0.02em;
+    .terms-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 42px;
+      box-shadow: 0 12px 35px rgba(24, 16, 24, 0.08);
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      font-size: 0.78rem;
+      font-weight: 700;
+      margin-bottom: 10px;
     }
 
     h1 {
-      font-size: clamp(2.2rem, 5vw, 4rem);
-      margin-bottom: 1rem;
-    }
-
-    h2 {
-      margin-top: 2.5rem;
-      margin-bottom: 0.75rem;
-    }
-
-    p, li {
-      color: var(--muted);
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      margin: 0 0 10px;
+      color: var(--deep);
     }
 
     .intro {
-      font-size: 1.1rem;
-      max-width: 70ch;
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin: 0 0 28px;
     }
 
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 1.5rem;
-      margin-top: 1.5rem;
-    }
-
-    .meta {
+    .updated {
       color: var(--muted);
       font-size: 0.95rem;
-      margin-bottom: 2rem;
+      margin-bottom: 34px;
     }
 
-    .acceptance-box {
-      background: #fff;
-      border: 2px solid var(--accent);
-      border-radius: 22px;
-      padding: 1.5rem;
-      margin-top: 3rem;
+    h2 {
+      margin-top: 38px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--deep);
+      font-size: 1.35rem;
+      line-height: 1.3;
     }
 
-    .cta {
-      border: 0;
-      background: var(--deep);
-      color: #fff;
-      padding: 0.9rem 1.25rem;
-      border-radius: 999px;
-      font-weight: 700;
-      cursor: pointer;
-      font-size: 1rem;
-      display: inline-block;
-      margin-top: 0.5rem;
+    p {
+      margin: 0 0 16px;
     }
 
-    .cta:hover {
-      background: #000;
+    ol.alpha {
+      margin: 0 0 18px 22px;
+      padding: 0;
     }
 
-    .secondary-link {
-      display: inline-block;
-      margin-top: 1rem;
+    ol.alpha li {
+      margin-bottom: 9px;
+      padding-left: 4px;
+    }
+
+    .accept-box {
+      margin-top: 40px;
+      padding: 22px;
+      background: #fbfaf7;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    .footer-links {
+      margin-top: 34px;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: var(--deep);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent);
+      font-weight: 600;
+    }
+
+    .footer-links a:hover {
       color: var(--accent);
-      font-weight: 700;
     }
 
     footer {
-      border-top: 1px solid var(--border);
-      padding: 2rem 0;
+      text-align: center;
       color: var(--muted);
+      padding: 28px 20px 42px;
+      font-size: 0.92rem;
     }
 
-    @media (max-width: 700px) {
-      main {
-        padding: 2.5rem 0;
+    @media (max-width: 680px) {
+      .terms-card {
+        padding: 28px 20px;
+        border-radius: 14px;
       }
 
-      .logo {
-        height: 48px;
+      nav a {
+        margin-left: 0;
+        margin-right: 14px;
       }
     }
   </style>
@@ -156,147 +185,662 @@
 
 <body>
   <header>
-    <div class="wrap">
-      <nav>
-        <a href="index.html" aria-label="Mateba Home">
-          <img class="logo" src="assets/logos/mateba-logo-primary.jpg" alt="Mateba logo" loading="eager" />
-        </a>
-        <a href="index.html">Back to Home</a>
+    <div class="nav">
+      <a class="brand" href="/index.html">Mateba</a>
+      <nav aria-label="Main navigation">
+        <a href="/index.html">Home</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/accept-terms/">Accept Terms</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <div class="wrap">
+    <section class="terms-card">
+      <div class="eyebrow">Life, in Music</div>
+
       <h1>Mateba Terms of Use</h1>
 
       <p class="intro">
-        These Terms of Use apply to Mateba personalised song orders, including story intake, creative direction, lyric writing, AI-assisted music production, revisions, delivery, and use of the final song.
+        These Terms apply to Mateba Audiograph services.
       </p>
 
-      <p class="meta">
-        Terms version: 2026-05-05<br />
-        Governing law: Republic of South Africa
+      <p class="updated">
+        <strong>Last updated:</strong> 10 June 2026
       </p>
 
-      <section class="card">
-        <h2>1. What Mateba Does</h2>
-        <p>Mateba creates personalised songs from real life stories.</p>
-        <p>Each song is treated as a personal work of art. The process may include story intake, emotional direction, lyric writing, song brief creation, AI-assisted music production, final audio delivery, and a lyric sheet.</p>
+      <h2>1. What Mateba Does</h2>
 
-        <h2>2. Artistic Interpretation</h2>
-        <p>Mateba creates songs inspired by the information, stories, memories, and material provided by the client.</p>
-        <p>Mateba may adapt, fictionalise, compress, anonymise, or artistically interpret the information provided to create the final song.</p>
-        <p>The final song is a creative work inspired by the story provided. It should not be treated as a factual biography, legal record, historical record, or complete factual account.</p>
+      <p>
+        Mateba creates Audiographs: personalised musical works shaped by real people,
+        relationships, life events, memories, emotions, and stories.
+      </p>
 
-        <h2>3. Information Provided by the Client</h2>
-        <p>The client is responsible for the information, names, stories, photographs, voice notes, messages, lyrics, and other material provided to Mateba.</p>
-        <p>By providing material to Mateba, the client confirms that they have the right, permission, or lawful basis to provide it.</p>
-        <p>The client must not provide material that is unlawful, defamatory, misleading, invasive of privacy, harmful, or infringing of another person’s rights.</p>
-        <p>Mateba may refuse, adapt, remove, anonymise, or decline to use any material that creates legal, privacy, ethical, reputational, or safety concerns.</p>
+      <p>
+        Each Audiograph is treated as a personal work of art. The process may include
+        story intake, emotional direction, lyric writing, Audiograph brief creation,
+        AI-assisted music production, revision, final audio delivery, and supporting
+        written material.
+      </p>
 
-        <h2>4. Privacy</h2>
-        <p>Mateba respects client privacy.</p>
-        <p>Mateba may use the information provided by the client to understand the story, create the song, manage payment, handle revisions, deliver the final product, and keep reasonable business records.</p>
-        <p>Mateba will not sell client information.</p>
-        <p>Mateba will not publicly share a private song, story, photograph, voice note, or personal material without permission, unless required by law.</p>
-        <p>Where possible, Mateba may minimise, anonymise, generalise, or fictionalise personal details before using third-party AI or music generation platforms.</p>
+      <p>
+        An Audiograph may sound like a song, but Mateba is not primarily a custom song
+        business, music production service, counselling service, legal service,
+        psychological service, medical service, factual documentation service,
+        historical record service, or dispute-resolution service.
+      </p>
 
-        <h2>5. Third-Party AI and Creative Platforms</h2>
-        <p>Mateba uses human creative input together with AI-assisted tools and third-party creative platforms.</p>
-        <p>These may include ChatGPT, Suno, and other services used for writing, music generation, editing, hosting, payment, communication, or delivery.</p>
-        <p>By placing an order, the client agrees that selected information may be processed through third-party platforms where reasonably necessary to create and deliver the song.</p>
-        <p>The client also agrees not to request content that breaches the law, another person’s rights, or the terms and policies of any third-party platform used in the process.</p>
-        <p>Mateba does not control third-party platforms and is not responsible for platform downtime, technical errors, rejected generations, changes in terms, changes in features, changes in pricing, changes in licence conditions, or changes in output quality.</p>
+      <h2>2. Fictionalised Artistic Interpretation</h2>
 
-        <h2>6. AI-Assisted Output</h2>
-        <p>AI-assisted output may not always be legally unique or eligible for full copyright protection.</p>
-        <p>Mateba does not guarantee copyright registration, complete exclusivity, or absolute ownership of every AI-generated element.</p>
-        <p>Mateba provides a guided creative process and a final delivered song for the agreed purpose.</p>
+      <p>
+        Every Audiograph is a fictionalised artistic interpretation created from,
+        inspired by, or guided by material submitted to Mateba.
+      </p>
 
-        <h2>7. Price and Payment</h2>
-        <p>The standard Mateba song price for the 2027 financial year is R6,000, unless another price is agreed in writing.</p>
-        <p>This includes guided story intake, emotional direction, lyric writing, song brief, AI-assisted music production, final audio file, lyric sheet, and one controlled revision round.</p>
-        <p>Work begins only after payment has been received and the client has accepted these Terms of Use.</p>
+      <p>
+        Mateba may adapt, fictionalise, compress, anonymise, generalise, summarise,
+        restructure, combine, omit, soften, transform, or artistically interpret any
+        information, names, stories, memories, events, relationships, emotions,
+        photographs, recordings, messages, lyrics, instructions, or other material
+        provided by the client.
+      </p>
 
-        <h2>8. Revisions</h2>
-        <p>One controlled revision round is included.</p>
-        <p>A revision round means one consolidated set of reasonable changes.</p>
-        <p>Major changes may cost extra, including changes to the core story, language, recipient, emotional direction, genre, approved lyrics, or approved song brief.</p>
+      <p>
+        An Audiograph is not a factual statement, biography, historical record, legal
+        record, medical record, psychological assessment, family record, confession,
+        admission, proof of any event, professional opinion, or literal representation
+        of any real person, relationship, event, dispute, memory, or circumstance.
+      </p>
 
-        <h2>9. Delivery and Use</h2>
-        <p>Final delivery usually includes the final audio file and lyric sheet.</p>
-        <p>Unless otherwise agreed in writing, the song is supplied for personal and private use.</p>
-        <p>Public, commercial, advertising, political, broadcast, streaming, monetised, paid-event, or large-scale distribution use must be disclosed to Mateba before production and may require further agreement.</p>
+      <p>
+        Lyrics, characters, emotional perspectives, scenes, events, images, metaphors,
+        symbols, and narrative elements in an Audiograph may be fictionalised, symbolic,
+        composite, simplified, anonymised, generalised, softened, omitted, or
+        artistically altered.
+      </p>
 
-        <h2>10. No Guarantee of Emotional Response</h2>
-        <p>Mateba aims to create a meaningful, personal, and polished song.</p>
-        <p>However, music and emotional response are subjective. Mateba cannot guarantee a specific emotional reaction from the client, recipient, family, guests, listeners, or the public.</p>
+      <p>
+        No Audiograph should be understood as claiming to accurately represent what any
+        real person thought, felt, said, did, intended, experienced, believed, caused,
+        suffered, or meant.
+      </p>
 
-        <h2>11. Indemnity</h2>
-        <p>The client indemnifies Mateba against any claim, loss, damage, cost, expense, or legal liability arising from:</p>
-        <ul>
-          <li>information, stories, names, photographs, voice notes, messages, lyrics, instructions, or other material provided by the client;</li>
-          <li>the client not having the required right, permission, or lawful basis to provide material to Mateba;</li>
-          <li>claims by another person relating to privacy, dignity, defamation, copyright, personality rights, voice rights, image rights, consent, or misuse of personal information;</li>
-          <li>the client’s use, sharing, publication, performance, distribution, or commercial use of the final song;</li>
-          <li>the client’s breach of these Terms of Use.</li>
-        </ul>
-        <p>This indemnity applies unless the claim arises directly from Mateba’s intentional misconduct or gross negligence.</p>
+      <p>
+        Where an Audiograph appears to refer to real people, memories, relationships,
+        or events, that connection arises from the client’s submitted material and
+        instructions. The client remains responsible for ensuring that the material may
+        lawfully and appropriately be submitted, used, shared, transformed, and
+        incorporated into an Audiograph.
+      </p>
 
-        <h2>12. Governing Law</h2>
-        <p>These Terms of Use are governed by the laws of the Republic of South Africa.</p>
+      <h2>3. Information Provided by the Client</h2>
 
-        <h2>13. Acceptance</h2>
-        <p>By clicking I accept, making payment, submitting intake information, approving a brief, approving lyrics, or using the final song, the client accepts these Terms of Use.</p>
-      </section>
+      <p>
+        The client is responsible for all information, names, stories, photographs,
+        recordings, voice notes, messages, lyrics, instructions, memories, personal
+        details, and other material provided to Mateba.
+      </p>
 
-      <section class="acceptance-box">
-        <h2>Accept Terms of Use</h2>
-        <p>
-          To continue with a Mateba order, please confirm acceptance of these Terms of Use by sending the pre-filled WhatsApp message.
-        </p>
+      <p>
+        By providing material to Mateba, the client confirms that they have the
+        necessary right, permission, consent, authority, or lawful basis to provide it
+        and to allow Mateba to use it for the Audiograph process.
+      </p>
 
-        <button class="cta" onclick="acceptTerms()">
-          I accept the Terms of Use
-        </button>
+      <p>
+        The client must not provide material that is unlawful, defamatory, misleading,
+        confidential without authority, invasive of privacy, harmful, exploitative,
+        discriminatory, abusive, or infringing of another person’s rights.
+      </p>
 
-        <br />
+      <p>
+        The client must not provide material that they are not authorised to share, or
+        material that must remain strictly confidential from all third-party processing.
+      </p>
 
-        <a class="secondary-link" href="index.html">Return to Mateba home page</a>
-      </section>
-    </div>
+      <p>
+        Mateba may refuse, adapt, remove, anonymise, generalise, fictionalise, limit,
+        or decline to use any material that creates legal, privacy, ethical,
+        reputational, family-dispute, dignity, platform-policy, or safety concerns.
+      </p>
+
+      <h2>4. Consent, Children, Deceased Persons, and Sensitive Stories</h2>
+
+      <p>
+        Audiographs may involve living people, children, deceased persons, family
+        members, partners, private memories, emotional events, bereavement, conflict,
+        trauma, medical information, religious information, criminal allegations, legal
+        disputes, or other sensitive material.
+      </p>
+
+      <p>
+        The client is responsible for ensuring that they have the necessary consent,
+        authority, or lawful basis to provide and use any personal information or
+        material relating to another person.
+      </p>
+
+      <p>
+        If an Audiograph includes or concerns a child, the client confirms that they are
+        the child’s parent or legal guardian, or that they have obtained appropriate
+        consent from the child’s parent or legal guardian before submitting the material
+        to Mateba.
+      </p>
+
+      <p>
+        If an Audiograph concerns a deceased person, the client confirms that they are
+        authorised to submit the relevant material and that, to the best of their
+        knowledge, the project is not likely to unlawfully infringe the privacy,
+        dignity, reputation, cultural, religious, family, estate, or other legally
+        protected interests of any person.
+      </p>
+
+      <p>
+        Where a project involves a child, deceased person, family dispute, private
+        information, sensitive personal information, recordings, images, voice material,
+        or another person’s story, Mateba may request additional confirmation, limit the
+        project, require changes, anonymise details, fictionalise details, or decline
+        the project.
+      </p>
+
+      <p>
+        Mateba does not guarantee that all family members, recipients, listeners,
+        affected persons, or third parties will agree with, approve of, or emotionally
+        accept the Audiograph.
+      </p>
+
+      <p>
+        The client accepts that Mateba is not responsible for family conflict, personal
+        disagreement, emotional disagreement, reputational consequences, or third-party
+        objections arising from material submitted by the client or from the client’s
+        use, sharing, publication, performance, or presentation of the Audiograph.
+      </p>
+
+      <h2>5. Privacy</h2>
+
+      <p>
+        Mateba respects client privacy and will not sell client information.
+      </p>
+
+      <p>
+        Mateba may use information provided by the client to understand the story,
+        create and revise the Audiograph, manage payment, communicate with the client,
+        deliver the final product, improve Mateba’s internal administrative and
+        creative workflows, keep reasonable business records, and protect Mateba’s legal
+        and business interests.
+      </p>
+
+      <p>
+        Mateba will not intentionally publish a private Audiograph, story, photograph,
+        recording, voice note, message, or personal material without permission, unless
+        required by law or reasonably necessary to protect Mateba’s legal rights.
+      </p>
+
+      <p>
+        Where reasonably possible, Mateba may minimise, anonymise, generalise, or
+        fictionalise sensitive personal details before using third-party AI or creative
+        platforms.
+      </p>
+
+      <p>
+        The client understands that absolute confidentiality cannot be guaranteed where
+        material is processed through third-party AI, music generation, writing,
+        editing, storage, hosting, communication, payment, administration, or delivery
+        platforms.
+      </p>
+
+      <p>
+        Mateba’s separate Privacy Policy or POPIA Notice may provide further information
+        about how Mateba collects, uses, stores, shares, protects, and retains personal
+        information.
+      </p>
+
+      <h2>6. Third-Party AI and Creative Platforms</h2>
+
+      <p>
+        Mateba uses human creative input together with AI-assisted tools and third-party
+        creative platforms.
+      </p>
+
+      <p>
+        These may include ChatGPT, Suno, and other services used for writing, lyric
+        development, music generation, editing, hosting, payment, communication,
+        storage, administration, or delivery. Mateba may change the tools or platforms
+        used from time to time.
+      </p>
+
+      <p>
+        By placing an order, making payment, submitting intake information, approving a
+        brief, approving lyrics, approving creative direction, or using the final
+        Audiograph, the client agrees that selected information may be processed through
+        third-party platforms where reasonably necessary to create, revise, administer,
+        deliver, store, or manage the Audiograph.
+      </p>
+
+      <p>
+        The client gives Mateba permission to process selected material through
+        third-party platforms where reasonably necessary for the Audiograph process.
+      </p>
+
+      <p>
+        The client should not submit material to Mateba unless the client is authorised
+        to share it for this purpose.
+      </p>
+
+      <p>
+        The client should not submit material that must remain strictly confidential
+        from all third-party processing.
+      </p>
+
+      <p>
+        The client agrees not to request content that breaches the law, another person’s
+        rights, or the terms and policies of any third-party platform used in the
+        process.
+      </p>
+
+      <p>
+        Mateba does not control third-party platforms and is not responsible for
+        platform downtime, technical errors, rejected generations, moderation decisions,
+        takedown decisions, platform enforcement, changes in terms, changes in features,
+        changes in pricing, changes in licence conditions, changes in moderation
+        policies, or changes in output quality.
+      </p>
+
+      <h2>7. AI-Assisted Output and Copyright</h2>
+
+      <p>
+        AI-assisted output may not always be legally unique or eligible for full
+        copyright protection.
+      </p>
+
+      <p>
+        Mateba does not guarantee copyright registration, complete exclusivity, or
+        absolute ownership of every AI-generated element.
+      </p>
+
+      <p>
+        Mateba provides a guided creative process and a final delivered Audiograph for
+        the agreed purpose.
+      </p>
+
+      <p>
+        The client must not request imitation of a specific artist, protected work,
+        private person, public figure, deceased person, voice, likeness, name, image,
+        recognisable performance style, or protected creative work where this may
+        infringe rights or create legal, ethical, reputational, or platform-policy risk.
+      </p>
+
+      <p>
+        Mateba may refuse or alter requests that appear to imitate a specific artist,
+        protected work, voice, likeness, public figure, private individual, deceased
+        person, or recognisable performance style.
+      </p>
+
+      <h2>8. Price and Payment</h2>
+
+      <p>
+        The price of an Audiograph will be the price agreed in writing between Mateba
+        and the client before work begins.
+      </p>
+
+      <p>
+        Unless otherwise agreed in writing, work begins only after payment has been
+        received and the client has accepted these Terms.
+      </p>
+
+      <p>
+        Payment confirms that the client wishes Mateba to begin the story-capture and
+        creative process for the agreed Audiograph.
+      </p>
+
+      <p>
+        Any additional work, urgent turnaround, extra revision rounds, major changes,
+        expanded usage rights, public release requirements, commercial use, or unusual
+        project complexity may require a further quote or written agreement.
+      </p>
+
+      <p>
+        Fees are charged for the creative process, time, story development, artistic
+        direction, generation work, review, administration, and delivery of the
+        Audiograph. Payment is not dependent on any guaranteed emotional response or
+        specific listener reaction.
+      </p>
+
+      <h2>9. Refunds and Cancellations</h2>
+
+      <p>
+        Refunds and cancellations are subject to applicable South African law, including
+        any non-excludable consumer rights that may apply.
+      </p>
+
+      <p>
+        Because each Audiograph is personalised and creative work may begin shortly
+        after payment and intake, payments are not refundable once Mateba has started
+        story capture, writing, briefing, generation, review, revision, administration,
+        or production work, except where required by law or agreed in writing by
+        Mateba.
+      </p>
+
+      <p>
+        If the client cancels before work has begun, Mateba may refund the amount paid,
+        less reasonable payment-processing or administrative costs, where permitted by
+        law.
+      </p>
+
+      <p>
+        Dissatisfaction with the artistic direction, subjective preference, emotional
+        response, recipient reaction, or personal expectation does not automatically
+        entitle the client to a refund.
+      </p>
+
+      <p>
+        If Mateba declines or stops work because the project creates legal, privacy,
+        consent, dignity, safety, reputational, family-dispute, ethical, or
+        platform-policy concerns, Mateba may decide, acting reasonably and subject to
+        applicable law, whether a full refund, partial refund, credit, or no refund is
+        appropriate, depending on the work already performed and the reason work
+        stopped.
+      </p>
+
+      <h2>10. Revisions</h2>
+
+      <p>
+        One controlled revision round is included unless otherwise agreed in writing.
+      </p>
+
+      <p>
+        A controlled revision round means one consolidated set of reasonable changes
+        submitted by the client within a reasonable time after delivery, or within any
+        specific revision period agreed in writing.
+      </p>
+
+      <p>
+        Major changes may cost extra, including changes to the core story, language,
+        recipient, emotional direction, genre, approved lyrics, approved Audiograph
+        brief, intended use, or new information supplied after production has begun.
+      </p>
+
+      <p>
+        Mateba may decline revision requests that are unlawful, harmful, infringing,
+        unethical, technically impractical, outside the agreed scope, inconsistent with
+        the approved direction, or likely to create legal, privacy, dignity,
+        family-dispute, reputational, emotional-harm, or platform-policy risk.
+      </p>
+
+      <h2>11. Delivery, Timelines, and Client Delay</h2>
+
+      <p>
+        Final delivery usually includes the final audio file and any agreed supporting
+        written material.
+      </p>
+
+      <p>
+        Delivery timelines are estimates unless expressly agreed in writing.
+      </p>
+
+      <p>
+        Delivery may depend on client cooperation, complete intake information, timely
+        feedback, third-party platform availability, revision scope, project sensitivity,
+        and project complexity.
+      </p>
+
+      <p>
+        Mateba is not responsible for delays caused by incomplete information, late
+        responses, changes in direction, late approvals, third-party platform issues,
+        technical problems outside Mateba’s reasonable control, or circumstances beyond
+        Mateba’s reasonable control.
+      </p>
+
+      <p>
+        Delivery is deemed complete when Mateba sends the final agreed file or download
+        link to the client’s nominated email address, WhatsApp number, or other agreed
+        delivery channel.
+      </p>
+
+      <h2>12. Use of the Audiograph</h2>
+
+      <p>
+        Unless otherwise agreed in writing, the Audiograph is supplied for personal and
+        private use.
+      </p>
+
+      <p>
+        Public, commercial, advertising, political, broadcast, streaming, monetised,
+        paid-event, large-scale distribution, organisational, or campaign use must be
+        disclosed to Mateba before production and may require further written agreement,
+        an expanded licence, or an additional fee.
+      </p>
+
+      <p>
+        The client is responsible for how they use, share, publish, perform, distribute,
+        upload, or present the final Audiograph.
+      </p>
+
+      <p>
+        The client must not use the Audiograph in a way that is unlawful, defamatory,
+        misleading, exploitative, invasive of privacy, harmful, infringing, or likely to
+        create legal, reputational, family-dispute, dignity, or safety risk.
+      </p>
+
+      <h2>13. Ownership and Licence</h2>
+
+      <p>
+        Unless otherwise agreed in writing, Mateba grants the client a personal,
+        non-exclusive, non-transferable licence to use the final delivered Audiograph
+        for private, personal, non-commercial purposes.
+      </p>
+
+      <p>
+        Client materials remain the responsibility of the client or the relevant
+        rights-holder.
+      </p>
+
+      <p>
+        Mateba retains its rights in its internal prompts, briefs, drafts, workflows,
+        production methods, unpublished alternatives, rejected versions, templates,
+        systems, business processes, know-how, and internal materials.
+      </p>
+
+      <p>
+        The client does not receive ownership of Mateba’s internal process materials
+        unless expressly agreed in writing.
+      </p>
+
+      <p>
+        Any public, commercial, monetised, streaming, advertising, campaign,
+        organisational, political, broadcast, paid-event, or large-scale use requires
+        Mateba’s prior written agreement and may require a separate licence or fee.
+      </p>
+
+      <h2>14. No Real-Person Representation</h2>
+
+      <p>
+        The client understands that an Audiograph is a fictionalised artistic
+        interpretation and does not represent real people as a matter of fact.
+      </p>
+
+      <p>
+        An Audiograph must not be treated as a factual statement about any person,
+        relationship, event, family, dispute, history, medical matter, legal matter,
+        private circumstance, intention, feeling, belief, conduct, or lived experience.
+      </p>
+
+      <p>
+        Mateba does not guarantee that any lyric, line, musical phrase, emotional
+        perspective, character, image, event, metaphor, or narrative element in an
+        Audiograph accurately reflects any real person, real event, real relationship,
+        or real circumstance.
+      </p>
+
+      <p>
+        Mateba may intentionally fictionalise, anonymise, generalise, soften, omit, or
+        alter details to reduce legal, privacy, family-dispute, dignity, ethical,
+        emotional, reputational, or platform-policy risk.
+      </p>
+
+      <h2>15. No Guarantee of Emotional Response</h2>
+
+      <p>
+        Mateba aims to create a meaningful, personal, and polished Audiograph.
+      </p>
+
+      <p>
+        Music and emotional response are subjective. Mateba cannot guarantee a specific
+        emotional reaction from the client, recipient, family, guests, listeners, or the
+        public.
+      </p>
+
+      <p>
+        Mateba does not guarantee healing, closure, reconciliation, family agreement,
+        therapeutic benefit, legal certainty, reputational benefit, commercial benefit,
+        or any particular personal outcome.
+      </p>
+
+      <h2>16. No Professional Advice</h2>
+
+      <p>
+        Mateba creates expressive musical works.
+      </p>
+
+      <p>
+        Mateba does not provide legal, medical, psychological, counselling, therapeutic,
+        financial, religious, family, child-welfare, trauma, or professional advisory
+        services.
+      </p>
+
+      <p>
+        If a project involves serious trauma, medical facts, family conflict, legal
+        proceedings, estate disputes, child-related concerns, allegations against
+        another person, or other sensitive matters, the client should obtain appropriate
+        professional advice before proceeding.
+      </p>
+
+      <h2>17. Client Permission and Indemnity</h2>
+
+      <p>
+        By submitting information, names, stories, photographs, recordings, voice notes,
+        messages, lyrics, instructions, memories, personal details, or other material to
+        Mateba, the client gives Mateba permission to use, adapt, edit, summarise,
+        anonymise, generalise, fictionalise, process, reproduce, transform, incorporate,
+        store, retain, and otherwise use that material as reasonably necessary to
+        create, revise, administer, deliver, keep records of, and protect Mateba’s
+        rights in relation to the Audiograph.
+      </p>
+
+      <p>
+        This permission includes the right to process selected material through
+        third-party AI, music generation, writing, editing, storage, communication,
+        payment, hosting, administration, and delivery platforms where reasonably
+        necessary for the Audiograph process.
+      </p>
+
+      <p>
+        The client confirms that they have the necessary right, permission, consent,
+        authority, or lawful basis to provide the material to Mateba and to allow Mateba
+        to use it for the Audiograph.
+      </p>
+
+      <p>
+        The client must not submit material that is unlawful, defamatory, misleading,
+        confidential without authority, invasive of privacy, infringing, exploitative,
+        abusive, discriminatory, or harmful.
+      </p>
+
+      <p>
+        The client must not submit material that must remain strictly confidential from
+        all third-party processing.
+      </p>
+
+      <p>
+        Mateba will not intentionally publish a private Audiograph, story, photograph,
+        recording, voice note, message, or personal material without permission, unless
+        required by law or reasonably necessary to protect Mateba’s rights.
+      </p>
+
+      <p>
+        To the fullest extent permitted by law, the client indemnifies and holds Mateba
+        harmless against any claim, demand, loss, damage, cost, expense, liability,
+        complaint, takedown request, platform enforcement action, platform moderation
+        action, or legal proceeding arising from or connected to:
+      </p>
+
+      <ol class="alpha" type="a">
+        <li>material submitted by the client;</li>
+        <li>the client not having the required right, permission, consent, authority, or lawful basis to submit material to Mateba;</li>
+        <li>claims by any person relating to privacy, dignity, defamation, confidentiality, copyright, moral rights, personality rights, voice rights, image rights, likeness rights, name rights, consent, family disputes, sensitive personal information, or misuse of personal information;</li>
+        <li>the client’s instructions, approvals, requested changes, or intended use of the Audiograph;</li>
+        <li>the client’s use, sharing, publication, performance, distribution, upload, commercial use, or presentation of the Audiograph;</li>
+        <li>any allegation that the Audiograph represents, misrepresents, harms, defames, invades the privacy of, or infringes the rights of any real person; or</li>
+        <li>the client’s breach of these Terms.</li>
+      </ol>
+
+      <p>
+        This indemnity does not apply to the extent that a claim arises directly from
+        Mateba’s intentional misconduct or gross negligence.
+      </p>
+
+      <h2>18. Mateba’s Right to Decline or Stop Work</h2>
+
+      <p>
+        Mateba may decline a project, stop work, request changes, limit delivery,
+        anonymise material, fictionalise material, or refuse to use material where the
+        project creates legal, ethical, privacy, reputational, safety, consent,
+        family-dispute, dignity, emotional-harm, or platform-policy concerns.
+      </p>
+
+      <p>
+        Mateba may also decline requests involving unlawful material, unauthorised voice
+        or likeness imitation, defamatory allegations, exploitative content, harassment,
+        threats, privacy invasion, or content that may harm another person.
+      </p>
+
+      <p>
+        Any refund, partial refund, credit, or refusal of refund in these circumstances
+        will be dealt with under the refund and cancellation clause and applicable law.
+      </p>
+
+      <h2>19. Governing Law</h2>
+
+      <p>
+        These Terms are governed by the laws of the Republic of South Africa.
+      </p>
+
+      <h2>20. Acceptance</h2>
+
+      <p>
+        By clicking “I accept,” making payment, submitting intake information, approving
+        a brief, approving lyrics, approving creative direction, requesting revisions,
+        or using the final Audiograph, the client accepts these Terms.
+      </p>
+
+      <p>
+        Mateba may require written confirmation of acceptance before beginning or
+        continuing work, especially for sensitive projects.
+      </p>
+
+      <p>
+        If the client does not accept these Terms, the client should not make payment,
+        submit intake information, approve creative material, or use Mateba’s Audiograph
+        services.
+      </p>
+
+      <div class="accept-box">
+        <strong>Acceptance summary:</strong>
+        By continuing with a Mateba Audiograph order, the client confirms that they
+        accept these Terms, have the necessary authority to submit the material provided,
+        and understand that the Audiograph is a fictionalised artistic interpretation
+        created through a human-led and AI-assisted process.
+      </div>
+
+      <div class="footer-links">
+        <a href="/index.html">Home</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/accept-terms/">Accept Terms</a>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <div class="wrap">
-      <p>© 2026 Mateba. All rights reserved. mateba.co.za</p>
-    </div>
+    Mateba · Life, in Music
   </footer>
-
-  <script>
-    function acceptTerms() {
-      const now = new Date();
-
-      const timestamp = now.toLocaleString("en-ZA", {
-        timeZone: "Africa/Johannesburg",
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-        hour: "2-digit",
-        minute: "2-digit",
-        second: "2-digit"
-      });
-
-      const message =
-        "I accept Mateba's Terms of Use.%0A%0A" +
-        "Terms version: 2026-05-05%0A" +
-        "Terms URL: https://mateba.co.za/terms.html%0A" +
-        "Acceptance time generated by website: " + encodeURIComponent(timestamp) + "%0A%0A" +
-        "I confirm that I have read and accepted the Terms of Use before placing or continuing with my Mateba order.";
-
-      window.location.href = "https://wa.me/27637831350?text=" + message;
-    }
-  </script>
 </body>
 </html>
