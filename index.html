@@ -19,8 +19,8 @@
     .hero{padding:64px 0 58px;border-top:0}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;align-items:center}
     .card{background:#1a130f;border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:22px}
-    .founder-card{overflow:hidden;max-width:360px;justify-self:center}
-    .founder-photo{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center center;border-radius:14px;margin-bottom:18px;border:1px solid rgba(255,255,255,.14);background:#0e0c09}
+    .founder-card{overflow:hidden}
+    .founder-photo{display:block;width:100%;height:360px;object-fit:contain;object-position:center center;border-radius:14px;margin-bottom:18px;border:1px solid rgba(255,255,255,.14);background:#0e0c09}
     .founder-quote{margin:0;font-size:clamp(24px,3vw,34px);line-height:1.15;font-weight:800;color:#f6eee6}
     .founder-quote cite{display:block;margin-top:14px;font-size:16px;line-height:1.4;font-weight:700;color:#c9a36a;font-style:normal}
     h1{font-size:clamp(42px,7vw,76px);line-height:1;margin:16px 0}
@@ -33,7 +33,6 @@
     iframe,video{width:100%;aspect-ratio:16/9;border:0;border-radius:14px;background:#000}
     .video{margin:20px 0}
     .small{font-size:14px}
-    .faq{border-top:1px solid rgba(255,255,255,.12);padding:16px 0}
     .foot{padding:28px 0;color:#c8b6a4}
     .foot a{margin-right:14px}
     @media(max-width:700px){
@@ -50,7 +49,6 @@
     <nav class="links" aria-label="Main navigation">
       <a href="#videos">Videos</a>
       <a href="#how">How it works</a>
-      <a href="#faq">FAQ</a>
       <a href="/terms/">Terms</a>
       <a href="/contact/">Contact</a>
     </nav>
@@ -63,7 +61,6 @@
           <p class="tag">Life, in Music</p>
           <h1>Music for the people, stories, and moments that matter most.</h1>
           <p class="lead">Mateba creates Audiographs: deeply personal musical works shaped around real people, relationships, memories, and life events.</p>
-          <p class="muted">Music can do something few things can: move past the mind and speak directly to the heart.</p>
           <a class="btn" href="/contact/">Contact Mateba</a>
           <a class="btn alt" href="#videos">Watch the videos</a>
         </div>
@@ -77,14 +74,6 @@
       </div>
     </section>
 
-    <section id="audiograph">
-      <div class="wrap">
-        <h2>What is an Audiograph?</h2>
-        <p class="lead">A photograph captures how someone looked. An Audiograph captures who they are.</p>
-        <p class="muted">An Audiograph is a deeply personal musical work: a musical portrait shaped around real moments and real people. It preserves emotional identity, connection, and meaning through music.</p>
-        <a class="btn" href="/contact/">Contact Mateba</a>
-      </div>
-    </section>
 
     <section id="videos">
       <div class="wrap">
@@ -92,24 +81,24 @@
         <p class="muted">Watch these in order. They explain why Mateba exists, what an Audiograph is, and who it is for.</p>
 
         <div class="video card">
-          <h3>1. The Heart of Mateba</h3>
-          <p class="muted">Some stories are meant to be felt, not only told.</p>
+          <h3>The Heart of Mateba</h3>
+          <p class="muted">Connection is the heart of Mateba.</p>
           <video controls preload="metadata">
             <source src="/assets/videos/mateba-web-intro-01-heart-of-mateba.mp4" type="video/mp4">
           </video>
         </div>
 
         <div class="video card">
-          <h3>2. What Is an Audiograph?</h3>
-          <p class="muted">Music can bridge the gap where words and pictures fall short.</p>
+          <h3>What is an Audiograph?</h3>
+          <p class="muted">A photograph captures how someone looked. An audiograph captures what was felt.</p>
           <video controls preload="metadata">
             <source src="/assets/videos/mateba-web-intro-02-what-is-an-audiograph.mp4" type="video/mp4">
           </video>
         </div>
 
         <div class="video card">
-          <h3>3. For Those Who Love Deeply</h3>
-          <p class="muted">People who feel deeply build legacies that endure.</p>
+          <h3>For Those Who Love Deeply</h3>
+          <p class="muted">It is people who feel deeply who build legacies that endure.</p>
           <video controls preload="metadata">
             <source src="/assets/videos/mateba-web-intro-03-for-those-who-love-deeply.mp4" type="video/mp4">
           </video>
@@ -174,53 +163,19 @@
       </div>
     </section>
 
-    <section id="legal">
+    <section id="start">
       <div class="wrap card">
-        <h2>Sensitivity and legal note</h2>
-        <p class="muted">Mateba may decline or request changes to projects involving legal disputes, confidential information, third-party privacy, minors, medical trauma, bereavement, family conflict, or other sensitive matters. Clients are responsible for ensuring they may share the names, stories, recordings, images, and personal information provided.</p>
-        <p class="muted small">Mateba creates expressive musical works. Mateba does not provide legal, medical, psychological, or counselling services.</p>
-      </div>
-    </section>
-
-    <section id="faq">
-      <div class="wrap">
-        <h2>FAQ</h2>
-        <div class="faq">
-          <h3>Is Mateba just a custom song service?</h3>
-          <p class="muted">No. Mateba creates Audiographs. Music is the medium; emotional preservation is the value.</p>
-        </div>
-        <div class="faq">
-          <h3>What can an Audiograph be for?</h3>
-          <p class="muted">Weddings, anniversaries, new life, coming of age, tributes, memorials, family legacy, and meaningful milestones.</p>
-        </div>
-        <div class="faq">
-          <h3>Do I need to know exactly what I want?</h3>
-          <p class="muted">No. You need a person, relationship, story, or moment. Mateba helps shape the brief.</p>
-        </div>
-        <div class="faq">
-          <h3>Can Mateba work with sensitive stories?</h3>
-          <p class="muted">Sometimes. Sensitive stories require care, consent, discretion, and clear boundaries.</p>
-        </div>
-        <div class="faq">
-          <h3>Can Mateba imitate someone’s voice?</h3>
-          <p class="muted">No unauthorised voice or likeness imitation is allowed. Mateba will not knowingly imitate a real person, artist, public figure, deceased person, or private individual without appropriate permission.</p>
-        </div>
-        <div class="faq">
-          <h3>Can I share the final Audiograph online?</h3>
-          <p class="muted">Possibly, depending on the agreed usage rights and whether the Audiograph contains private or sensitive material involving others.</p>
-        </div>
-        <div class="faq">
-          <h3>How do I start?</h3>
-          <p class="muted">Use the Contact Mateba button and send the basic context.</p>
-        </div>
+        <h2>Start your Audiograph.</h2>
         <a class="btn" href="/contact/">Contact Mateba</a>
       </div>
     </section>
+
+
   </main>
 
   <footer class="wrap foot">
     <p><strong>Mateba</strong> · Life, in Music</p>
-    <p><a href="/contact/">Contact</a><a href="/terms/">Terms</a><a href="/accept-terms/">Accept Terms</a></p>
+    <p><a href="mailto:music@mateba.co.za">music@mateba.co.za</a><a href="/terms/">Terms</a></p>
   </footer>
 </body>
 </html>
