@@ -1,13 +1,85 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Contact Mateba</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact Mateba | Life, in Music</title>
+  <link rel="icon" type="image/png" href="/assets/logos/mateba-favicon.png">
+  <meta name="description" content="Contact Mateba to start a conversation about personalised music from a real life story.">
+  <style>
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#100c09;color:#f6eee6;line-height:1.55}
+    a{color:inherit}
+    .wrap{max-width:1060px;margin:auto;padding:0 20px}
+    .nav{display:flex;justify-content:space-between;gap:18px;align-items:center;padding:28px 0}
+    .logo{display:inline-flex;align-items:center;text-decoration:none}
+    .logo img{display:block;width:min(640px,calc(100vw - 40px));max-width:640px;height:auto}
+    .links a{margin-left:14px;text-decoration:none;color:#d8c7b6}
+    section{padding:54px 0;border-top:1px solid rgba(255,255,255,.12)}
+    .hero{padding:64px 0 58px;border-top:0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;align-items:start}
+    .card{background:#1a130f;border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:24px}
+    .tag{color:#c9a36a;font-size:13px}
+    h1{font-size:clamp(42px,7vw,76px);line-height:1;margin:16px 0}
+    h2{font-size:clamp(26px,4vw,40px);line-height:1.1;margin:0 0 14px}
+    h3{margin:0 0 8px}
+    .lead{font-size:20px;color:#ddcdbc;max-width:720px}
+    .muted{color:#c8b6a4}
+    .btn{display:inline-block;background:#c99b61;color:#120d09;text-decoration:none;font-weight:800;padding:13px 19px;border-radius:999px;margin:8px 8px 8px 0}
+    .contact-line{font-size:20px;margin:0 0 10px}
+    .contact-line a{color:#f6eee6;text-decoration:none;border-bottom:1px solid rgba(201,155,97,.55)}
+    .footer-logo{display:block;max-width:220px;width:auto;height:auto;margin:0 0 14px}
+    .foot{padding:28px 0;color:#c8b6a4}
+    .foot a{margin-right:14px}
+    @media(max-width:700px){
+      .nav{display:block}
+      .links a{display:inline-block;margin:10px 12px 0 0}
+      section{padding:42px 0}
+      .hero{padding-top:38px}
+    }
+  </style>
 </head>
 <body>
-  <h1>Contact Mateba</h1>
-  <p>To start an Audiograph, contact Mateba and share the person, story, moment or event you want preserved.</p>
-  <p><a href="mailto:music@mateba.co.za">music@mateba.co.za</a></p>
-  <p><a href="/">Back to homepage</a></p>
+  <header class="wrap nav">
+    <a class="logo" href="/" aria-label="Mateba home"><img src="/assets/logos/mateba-logo-header-white-trimmed.png" alt="Mateba — Life, in Music"></a>
+    <nav class="links" aria-label="Main navigation">
+      <a href="/#videos">Videos</a>
+      <a href="/#how">How it works</a>
+      <a href="/terms/">Terms</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="tag">Life, in Music</p>
+        <h1>Contact Mateba</h1>
+        <p class="lead">Start a conversation about creating personalised music from a real life story.</p>
+        <a class="btn" href="https://wa.me/27637831350?text=Hi%2C%20please%20tell%20me%20more%20about%20Mateba%20Music.">Contact Mateba on WhatsApp</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap grid">
+        <div class="card">
+          <h2>Email</h2>
+          <p class="contact-line"><a href="mailto:music@mateba.co.za">music@mateba.co.za</a></p>
+          <p class="muted">Tell us who or what you would like to honour, remember, or celebrate, and we’ll guide you through the next step.</p>
+        </div>
+        <div class="card">
+          <h2>Terms of Use</h2>
+          <p class="muted">Please read the Mateba Terms of Use before proceeding.</p>
+          <p class="contact-line"><a href="/terms/">https://mateba.co.za/terms/</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <img class="footer-logo" src="/assets/logos/mateba-footer-logo-stacked-white-transparent.png" alt="Mateba — Life, in Music">
+    <p><a href="mailto:music@mateba.co.za">music@mateba.co.za</a><a href="/terms/">Terms</a></p>
+  </footer>
 </body>
 </html>
